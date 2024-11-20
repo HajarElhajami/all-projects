@@ -1,0 +1,11 @@
+.greenText, #playerScoreDisplay{
+    color: hsl(130, 84%, 54%);
+}
+
+.redText, #computerScoreDisplay{
+    color: hsl(0, 84%, 60%);
+}
+
+.bod{
+    background-color: rgb(206, 250, 246);
+}

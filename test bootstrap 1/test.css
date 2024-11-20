@@ -1,0 +1,16 @@
+.sec{
+    background-image: url(cultural-cuisine.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 640px;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+img{
+    width: 115px;
+    height:115px;
+}

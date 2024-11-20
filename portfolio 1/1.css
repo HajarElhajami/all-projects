@@ -1,0 +1,105 @@
+ul{
+   display: flex;
+   justify-content:space-evenly;
+   list-style: none;
+   font-size: 30px;
+   gap: 30px;
+   color: ghostwhite;
+   align-items: center;
+   color: rgb(242, 254, 11);
+    text-shadow: 0 0 5px rgb(0, 0, 0),
+                 0 0 10px rgb(0, 0, 0);
+    
+}
+
+img{
+    height: 110px;
+    width: 110px;
+    alt: logo;
+    justify-items:center;
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+    padding: left 50px;
+    padding: right 40px;
+    padding: center 50px;
+    
+    
+}
+
+body{
+    background: url(dd6a4ae0-9acd-40fa-8a73-f61fe9be755e\ \(1\).jpg);
+    background-size:cover
+
+}
+h1{
+   
+    font-size: 40px;
+    color: ghostwhite;
+    width: 35%;
+    min-height: 50px;
+    border: 5px solid beige;
+    color: rgb(242, 254, 11);
+    text-shadow: 0 0 25px rgb(0, 0, 0),
+                 0 0 50px rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+p{
+    font-size: 25px;
+    color:ghostwhite ;
+    width: 50%;
+    min-height: 60px;
+    border: 5px solid beige;
+    color: rgb(242, 254, 11);
+    text-shadow: 0 0 25px rgb(0, 0, 0),
+                 0 0 50px rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border: none;
+    color:black;
+    background-image: linear-gradient(30deg, #07f934, #a4f6c3);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 25px;
+    padding: 0.6em 1.5em;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #0ce76b66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+.bb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

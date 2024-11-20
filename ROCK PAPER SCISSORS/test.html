@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-bold flex flex-col items-center py-6 bod bg-rose-100	">
+
+    <h1 class="text-7xl text-current py-2 text-orange-900">Rock - Paper - Scissors</h1>
+
+
+ <div class="my-5 choices py-2" >
+    <button class="text-8xl min-h-36 mx-4 border-4 rounded-full bg-fuchsia-200 cursor-pointer hover:bg-fuchsia-400" onclick="playGame('rock')">👊</button>
+    <button class="text-8xl min-h-36 mx-4 border-4 rounded-full bg-lime-300	cursor-pointer hover:bg-lime-500"  onclick="playGame('paper')">✋</button>
+    <button class="text-8xl min-h-36 mx-4 border-4 rounded-full bg-red-200 cursor-pointer hover:bg-red-400"  onclick="playGame('scissors')">✌️</button>
+ </div>
+
+    
+ <div class="text-4xl flex items-center space-x-2 text-orange-900" id="playerDisplay">PLAYER: </div><br>
+ <div class="text-4xl flex items-center space-x-2 text-orange-900" id="computerDisplay">COMPUTER: </div><br>
+ <div class="text-8xl m-3" id="resultDisplay"></div>
+
+
+ <div class="scoreDisplay text-3xl text-orange-900">Player Score:
+     <span id="playerScoreDisplay">0</span>
+ </div>
+
+ <div class="scoreDisplay text-3xl text-orange-900">Computer Score:
+    <span id="computerScoreDisplay">0</span>
+</div>
+
+
+    <script src="./test.js"></script>
+</body>
+</html>

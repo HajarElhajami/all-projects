@@ -1,0 +1,45 @@
+.sec{
+    background-image: url(./360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+header{
+    height: 90px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+form{
+    width: 500px;
+    height: 500px;
+}
+
+.div-1:hover { 
+    color: white; 
+}
+
+.error-message {
+    color: red;
+    display: none;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px   ;
+}
+
+
+input.success {
+    border: 2px solid rgb(2, 221, 2);
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.success {
+    border: 2px solid rgb(2, 221, 2);
+}
